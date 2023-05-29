@@ -8,3 +8,9 @@ Select s.SPID, sum(amount) as 'Total', Product
 From Sales as s
 Join Products as p on s.PID=p.PID
 Group by Product Limit 10;
+
+| Rank | THING-TO-RANK |
+|-----:|---------------|
+|     1|               |
+|     2|               |
+|     3|               |
