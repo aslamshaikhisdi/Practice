@@ -4,5 +4,7 @@
 
 ### lets bgin with uploading the data set to the SQL and cleanign the data for the analysis. 
 
-source <xilinx_root>/Vivado/<version>/settings64.sh
-export XILINXD_LICENSE_FILE=<pointer to Xilinx license>
+Select s.SPID, sum(amount) as 'Total', Product
+From Sales as s
+Join Products as p on s.PID=p.PID
+Group by Product Limit 10;
