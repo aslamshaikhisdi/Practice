@@ -7,14 +7,14 @@ We will be learning how to analyze the data in SQL alogn with the manupulation f
 ### Uploding File to SQL
 
 
-// 
-Select * from Sales;
-//
-
-
 ```select
 Select * from Sales;
 ```
+
+
+
+
+
 
 ## API Reference
 
@@ -24,9 +24,19 @@ Select * from Sales;
   GET /api/items
 ```
 
-| Sales ID | Name    | Location               |
-| :-------- | :------- | :------------------------- |
-|    `1`     | `Aslam Shaikh` | `Mumbai` |
+| ID | Name     | Class   | Marks | Gender   |
+| :-------- | :------- | :------ | :------ | :------ 
+|`1` |	Aslam Shaikh |	Three |	98 |	Male|
+|`2`	|Ramdinesh|	Three|	54|	male|
+|`3`	|Reshama|	Three|	55|	Female|
+|`4`|	Seema Radhe	|Four	|50|	female|
+|`5`|	John Mike	|Four|	60|	Male|
+|`6`|	Alex John	|Four	|55|	male|
+|`7`|	My John Rob	|Five|	78|	male|
+|`8`|	Asruid|	Five|	85|	male|
+|`9`|	Tes Qry	|Six|	78|	male|
+|`10`|	Big John|	Four|	55|	female|
+				
 
 #### Get item
 
@@ -41,6 +51,18 @@ Select * from Sales;
 #### add(num1, num2)
 
 Takes two numbers and returns the sum.
+
+******
+
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 
 
@@ -149,7 +171,17 @@ Start the server
 ```
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![Name][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+
 
 
 ## Installation
